@@ -753,6 +753,15 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
 
+  packages/hooks/use-scroll:
+    devDependencies:
+      clean-package:
+        specifier: 2.2.0
+        version: 2.2.0
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+
   packages/next:
     dependencies:
       '@dafunda-ui/react-alert':
@@ -1022,6 +1031,9 @@ importers:
       '@dafunda-ui/react-use-mounted':
         specifier: workspace:^
         version: link:../hooks/use-mounted
+      '@dafunda-ui/react-use-scroll':
+        specifier: workspace:^
+        version: link:../hooks/use-scroll
     devDependencies:
       clean-package:
         specifier: 2.2.0
