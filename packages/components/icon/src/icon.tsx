@@ -82,6 +82,7 @@ import {
   MdOutlineDelete,
   MdOutlineEdit,
   MdOutlineEditNote,
+  MdOutlineFileUpload,
   MdOutlineHome,
   MdOutlineKeyboardArrowDown,
   MdOutlineLink,
@@ -99,12 +100,11 @@ import {
   MdStore,
   MdSupervisedUserCircle,
   MdUpdate,
-  MdUploadFile,
   MdVpnKey,
 } from "react-icons/md"
 import { SiNintendoswitch } from "react-icons/si"
 
-import { USAFlag, IndonesiaFlag } from "./flag"
+import { IndonesiaFlag, USAFlag } from "./flag"
 
 export const Icon = {
   AccessTime: MdAccessTime,
@@ -200,7 +200,7 @@ export const Icon = {
   TV: BiTv,
   Twitter: LuTwitter,
   Update: MdUpdate,
-  UploadFile: MdUploadFile,
+  UploadFile: MdOutlineFileUpload,
   Users: MdSupervisedUserCircle,
   ViewSidebar: MdOutlineViewSidebar,
   Visibility: MdOutlineVisibility,

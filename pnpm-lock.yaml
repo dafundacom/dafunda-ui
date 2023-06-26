@@ -343,6 +343,9 @@ importers:
       '@dafunda-ui/react-classname-utils':
         specifier: workspace:*
         version: link:../../utilities/classname-utils
+      '@dafunda-ui/react-icon':
+        specifier: workspace:^
+        version: link:../icon
     devDependencies:
       clean-package:
         specifier: 2.2.0

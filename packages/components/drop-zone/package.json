@@ -38,7 +38,8 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@dafunda-ui/react-classname-utils": "workspace:*"
+    "@dafunda-ui/react-classname-utils": "workspace:*",
+    "@dafunda-ui/react-icon": "workspace:^"
   },
   "peerDependencies": {
     "react": ">=18"
