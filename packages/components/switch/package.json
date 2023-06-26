@@ -1,0 +1,60 @@
+{
+  "name": "@dafunda-ui/react-switch",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "switch",
+    "react",
+    "ui",
+    "tailwindcss",
+    "dafunda-ui"
+  ],
+  "author": "Dafunda Dev Team <dev@dafunda.io>",
+  "homepage": "https://github.com/dafundacom/dafunda-ui#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafundacom/dafunda-ui.git",
+    "directory": "packages/components/switch"
+  },
+  "bugs": {
+    "url": "https://github.com/dafundacom/dafunda-ui/issues"
+  },
+  "scripts": {
+    "build": "tsup src --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "tsup src",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@dafunda-ui/react-classname-utils": "workspace:*",
+    "@radix-ui/react-switch": "^1.0.3"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "clean-package": "2.2.0",
+    "react": "^18.2.0"
+  },
+  "clean-package": "../../../clean-package.config.json",
+  "tsup": {
+    "clean": true,
+    "target": "es2020",
+    "format": [
+      "cjs",
+      "esm"
+    ]
+  }
+}

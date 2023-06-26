@@ -1,0 +1,6 @@
+packages:
+  - "packages/**/*"
+  - "packages/react"
+  - "packages/react-hooks"
+  - "packages/next"
+  - "packages/next-client"
