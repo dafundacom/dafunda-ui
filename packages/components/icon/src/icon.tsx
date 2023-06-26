@@ -26,6 +26,7 @@ import {
   FaXbox,
   FaYoutube,
 } from "react-icons/fa"
+import { FcGoogle } from "react-icons/fc"
 import { ImBook } from "react-icons/im"
 import { IoGameController } from "react-icons/io5"
 import {
@@ -134,6 +135,7 @@ export const Icon = {
   Copy: MdContentCopy,
   CreditCard: MdOutlineCreditCard,
   Currency: MdCurrencyExchange,
+  Dark: MdDarkMode,
   Dashboard: MdDashboard,
   Developer: MdDeveloperBoard,
   Diamond: MdDiamond,
@@ -154,6 +156,7 @@ export const Icon = {
   FormatStrikethrough: MdFormatStrikethrough,
   FormatUnderlined: MdFormatUnderlined,
   Game: IoGameController,
+  GoogleColored: FcGoogle,
   Help: MdHelpOutline,
   Home: MdOutlineHome,
   HorizontalRule: MdHorizontalRule,
@@ -161,6 +164,7 @@ export const Icon = {
   IndonesiaFlag: IndonesiaFlag,
   Instagram: FaInstagram,
   KeyboardArrowDown: MdOutlineKeyboardArrowDown,
+  Light: MdLightMode,
   Link: MdOutlineLink,
   Linkedin: FaLinkedinIn,
   Linux: FaLinux,
@@ -184,6 +188,8 @@ export const Icon = {
   Search: MdOutlineSearch,
   Shop: MdStore,
   ShoppingCart: MdAddShoppingCart,
+  SignIn: MdLogin,
+  SignOut: MdLogout,
   Spinner: LuLoader2,
   Star: BiStar,
   Sun: MdLightMode,
