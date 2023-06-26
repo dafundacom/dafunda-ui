@@ -1,0 +1,95 @@
+{
+  "name": "@dafunda-ui/react",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "react",
+    "react",
+    "ui",
+    "tailwindcss",
+    "dafunda-ui"
+  ],
+  "author": "Dafunda Dev Team <dev@dafunda.io>",
+  "homepage": "https://github.com/dafundacom/dafunda-ui#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafundacom/dafunda-ui.git",
+    "directory": "packages/components/react"
+  },
+  "bugs": {
+    "url": "https://github.com/dafundacom/dafunda-ui/issues"
+  },
+  "scripts": {
+    "build": "tsup src --dts",
+    "dev": "pnpm build:fast -- --watch",
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build:fast": "tsup src",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@dafunda-ui/react-alert": "workspace:^",
+    "@dafunda-ui/react-badge": "workspace:^",
+    "@dafunda-ui/react-breadcrumb": "workspace:^",
+    "@dafunda-ui/react-button": "workspace:^",
+    "@dafunda-ui/react-card": "workspace:^",
+    "@dafunda-ui/react-children-utils": "workspace:^",
+    "@dafunda-ui/react-icon": "workspace:^",
+    "@dafunda-ui/react-skeleton": "workspace:^",
+    "@dafunda-ui/react-table": "workspace:^",
+    "@dafunda-ui/react-textarea": "workspace:^",
+    "@dafunda-ui/react-classname-utils": "workspace:*",
+    "@dafunda-ui/react-accordion": "workspace:^",
+    "@dafunda-ui/react-alert-dialog": "workspace:^",
+    "@dafunda-ui/react-avatar": "workspace:*",
+    "@dafunda-ui/react-calendar": "workspace:^",
+    "@dafunda-ui/react-checkbox": "workspace:^",
+    "@dafunda-ui/react-collapsible": "workspace:^",
+    "@dafunda-ui/react-dialog": "workspace:^",
+    "@dafunda-ui/react-drawer": "workspace:^",
+    "@dafunda-ui/react-drop-zone": "workspace:^",
+    "@dafunda-ui/react-dropdown-menu": "workspace:^",
+    "@dafunda-ui/react-form": "workspace:^",
+    "@dafunda-ui/react-hover-card": "workspace:^",
+    "@dafunda-ui/react-menubar": "workspace:^",
+    "@dafunda-ui/react-navigation-menu": "workspace:^",
+    "@dafunda-ui/react-popover": "workspace:^",
+    "@dafunda-ui/react-progress": "workspace:^",
+    "@dafunda-ui/react-radio-group": "workspace:^",
+    "@dafunda-ui/react-scroll-area": "workspace:^",
+    "@dafunda-ui/react-select": "workspace:^",
+    "@dafunda-ui/react-separator": "workspace:^",
+    "@dafunda-ui/react-slider": "workspace:^",
+    "@dafunda-ui/react-switch": "workspace:^",
+    "@dafunda-ui/react-tabs": "workspace:^",
+    "@dafunda-ui/react-toast": "workspace:^",
+    "@dafunda-ui/react-toggle": "workspace:^",
+    "@dafunda-ui/react-tooltip": "workspace:^"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "clean-package": "2.2.0",
+    "react": "^18.2.0"
+  },
+  "clean-package": "../../clean-package.config.json",
+  "tsup": {
+    "clean": true,
+    "target": "es2020",
+    "format": [
+      "cjs",
+      "esm"
+    ]
+  }
+}

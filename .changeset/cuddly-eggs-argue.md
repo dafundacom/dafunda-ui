@@ -1,0 +1,50 @@
+---
+"@dafunda-ui/react-accordion": patch
+"@dafunda-ui/react-alert": patch
+"@dafunda-ui/react-alert-dialog": patch
+"@dafunda-ui/react-avatar": patch
+"@dafunda-ui/react-badge": patch
+"@dafunda-ui/react-breadcrumb": patch
+"@dafunda-ui/react-button": patch
+"@dafunda-ui/react-calendar": patch
+"@dafunda-ui/react-card": patch
+"@dafunda-ui/react-checkbox": patch
+"@dafunda-ui/react-collapsible": patch
+"@dafunda-ui/react-dialog": patch
+"@dafunda-ui/react-drawer": patch
+"@dafunda-ui/react-drop-zone": patch
+"@dafunda-ui/react-dropdown-menu": patch
+"@dafunda-ui/react-form": patch
+"@dafunda-ui/react-hover-card": patch
+"@dafunda-ui/react-icon": patch
+"@dafunda-ui/react-menubar": patch
+"@dafunda-ui/react-navigation-menu": patch
+"@dafunda-ui/react-popover": patch
+"@dafunda-ui/react-progress": patch
+"@dafunda-ui/react-radio-group": patch
+"@dafunda-ui/react-scroll-area": patch
+"@dafunda-ui/react-select": patch
+"@dafunda-ui/react-separator": patch
+"@dafunda-ui/react-skeleton": patch
+"@dafunda-ui/react-slider": patch
+"@dafunda-ui/react-switch": patch
+"@dafunda-ui/react-table": patch
+"@dafunda-ui/react-tabs": patch
+"@dafunda-ui/react-textarea": patch
+"@dafunda-ui/react-toast": patch
+"@dafunda-ui/react-toggle": patch
+"@dafunda-ui/react-tooltip": patch
+"@dafunda-ui/react-use-callback-ref": patch
+"@dafunda-ui/react-use-click-outside": patch
+"@dafunda-ui/react-use-disclosure": patch
+"@dafunda-ui/react-use-lock-body-scroll": patch
+"@dafunda-ui/react-use-mounted": patch
+"@dafunda-ui/next": patch
+"@dafunda-ui/next-client": patch
+"@dafunda-ui/react": patch
+"@dafunda-ui/react-hooks": patch
+"@dafunda-ui/react-children-utils": patch
+"@dafunda-ui/react-classname-utils": patch
+---
+
+update

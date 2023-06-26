@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.0.0/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "dafundacom/dafunda-ui" }
+  ],
+  "commit": false,
+  "linked": [],
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
+    "onlyUpdatePeerDependentsWhenOutOfRange": true
+  }
+}
