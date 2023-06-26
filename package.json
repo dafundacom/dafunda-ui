@@ -1,21 +1,83 @@
 {
-  "private": true,
+  "name": "dafunda-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafundacom/dafunda-ui.git"
+  },
+  "author": "Dafunda Dev Team <dev@dafunda.io>",
+  "license": "MIT",
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev --no-cache --continue",
-    "lint": "turbo lint",
-    "clean": "turbo clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo build --filter=docs^... && changeset publish"
+    "prepare": "husky install",
+    "prebuild": "pnpm install",
+    "build": "turbo run build --filter=!./examples/* --filter=!./docs/",
+    "build:fast": "turbo run build:fast --filter=!./examples/* --filter=!./docs/",
+    "build:docs": "turbo run build --filter=./docs/",
+    "dev": "turbo run dev --filter=!./examples/*",
+    "dev:docs": "turbo run dev --filter=./docs/",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "lint": "eslint packages/**/**/src --ext .ts,.tsx --config .eslintrc",
+    "format:check": "prettier --check packages/**/**/src",
+    "format:write": "prettier --write packages/**/**/src",
+    "clean": "pnpm -r --parallel exec rimraf dist .turbo *.log",
+    "changelog:format": "prettier --write .changelog",
+    "changelog:gen": "tsx scripts/changelog-generate.ts",
+    "changelog:write": "tsx scripts/changelog-write.ts",
+    "changelog:commit": "git add . && git commit -am 'docs: add changelog' && git push",
+    "create:pkg": "plop component",
+    "version:set": "changeset version",
+    "release": "changeset publish",
+    "version:dev": "changeset version --snapshot dev",
+    "release:dev": "changeset publish --tag dev",
+    "commit": "commitizen"
   },
-  "devDependencies": {
-    "@changesets/cli": "^2.22.0",
-    "eslint": "^7.32.0",
-    "eslint-config-acme": "workspace:*",
-    "prettier": "^2.5.1",
-    "turbo": "latest"
+  "dependencies": {
+    "@changesets/changelog-github": "0.4.8",
+    "@changesets/cli": "2.26.1",
+    "@changesets/get-release-plan": "3.0.16",
+    "@changesets/types": "5.2.1",
+    "@commitlint/cli": "17.6.6",
+    "@commitlint/config-conventional": "17.6.6",
+    "@commitlint/cz-commitlint": "^17.5.0",
+    "@swc/core": "^1.3.66",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "5.60.0",
+    "@typescript-eslint/parser": "5.60.0",
+    "commitizen": "^4.3.0",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-config-react": "1.1.7",
+    "eslint-config-turbo": "^1.10.6",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "^8.0.3",
+    "lint-staged": "13.2.2",
+    "plop": "^3.1.2",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "rimraf": "5.0.1",
+    "tsup": "7.1.0",
+    "turbo": "^1.10.6",
+    "typescript": "^5.1.3"
   },
-  "packageManager": "pnpm@7.15.0"
+  "pnpm": {
+    "overrides": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "packageManager": "pnpm@8.6.3",
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  }
 }
