@@ -1,5 +1,13 @@
 # @dafunda-ui/react-navigation-menu
 
+## 0.1.1
+
+### Patch Changes
+
+- Updated dependencies
+  [[`ec9b239`](https://github.com/dafundacom/dafunda-ui/commit/ec9b2393e446a7b5f5bac17307c5d0c5df416e75)]:
+  - @dafunda-ui/react-icon@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes
