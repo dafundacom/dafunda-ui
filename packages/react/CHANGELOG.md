@@ -1,5 +1,27 @@
 # @dafunda-ui/react-react
 
+## 0.1.1
+
+### Patch Changes
+
+- Updated dependencies
+  [[`ec9b239`](https://github.com/dafundacom/dafunda-ui/commit/ec9b2393e446a7b5f5bac17307c5d0c5df416e75)]:
+  - @dafunda-ui/react-icon@0.1.1
+  - @dafunda-ui/react-accordion@0.1.1
+  - @dafunda-ui/react-button@0.1.1
+  - @dafunda-ui/react-calendar@0.1.1
+  - @dafunda-ui/react-checkbox@0.1.1
+  - @dafunda-ui/react-dialog@0.1.1
+  - @dafunda-ui/react-drawer@0.1.1
+  - @dafunda-ui/react-drop-zone@0.1.1
+  - @dafunda-ui/react-dropdown-menu@0.1.1
+  - @dafunda-ui/react-menubar@0.1.1
+  - @dafunda-ui/react-navigation-menu@0.1.1
+  - @dafunda-ui/react-radio-group@0.1.1
+  - @dafunda-ui/react-select@0.1.1
+  - @dafunda-ui/react-toast@0.1.1
+  - @dafunda-ui/react-alert-dialog@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes
