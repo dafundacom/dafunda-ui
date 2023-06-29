@@ -203,6 +203,7 @@ export const Icon = {
   Twitter: LuTwitter,
   Update: MdUpdate,
   UploadFile: MdOutlineFileUpload,
+  User: MdPerson,
   Users: MdSupervisedUserCircle,
   ViewSidebar: MdOutlineViewSidebar,
   Visibility: MdOutlineVisibility,
