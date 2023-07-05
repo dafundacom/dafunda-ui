@@ -40,9 +40,7 @@ export const DropZone = React.forwardRef<HTMLDivElement, DropZoneProps>(
       event.stopPropagation()
       setIsDragging(false)
       const files = event.dataTransfer.files
-      const inputElement = document.getElementById(
-        "dropzone-file",
-      ) as HTMLInputElement
+      const inputElement = document.getElementById("file") as HTMLInputElement
       if (inputElement) {
         inputElement.files = files
         setFiles(files)
@@ -78,7 +76,7 @@ export const DropZone = React.forwardRef<HTMLDivElement, DropZoneProps>(
             )}
           </div>
           <input
-            id="dropzone-file"
+            id="file"
             type="file"
             className="hidden"
             multiple={true}
@@ -93,7 +91,7 @@ export const DropZone = React.forwardRef<HTMLDivElement, DropZoneProps>(
             onDragLeave={handleDragLeave}
             onDrop={handleDrop}
             onDragOver={handleDragOver}
-            htmlFor="dropzone-file"
+            htmlFor="file"
           ></label>
         </div>
       </div>
