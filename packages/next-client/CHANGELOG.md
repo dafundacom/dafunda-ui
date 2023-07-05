@@ -1,5 +1,13 @@
 # @dafunda-ui/react-next-client
 
+## 0.1.4
+
+### Patch Changes
+
+- [`5145ce0`](https://github.com/dafundacom/dafunda-ui/commit/5145ce08e640b44b12c0b9e5a1c69d53f812ba22)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - remove drag and
+  drop function from drop zone
+
 ## 0.1.3
 
 ### Patch Changes
