@@ -1,5 +1,13 @@
 # @dafunda-ui/react-drop-zone
 
+## 0.1.2
+
+### Patch Changes
+
+- [`7e175cb`](https://github.com/dafundacom/dafunda-ui/commit/7e175cb10cc7069a9d9a5843aef07827b52c1f35)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - stop dropdown
+  propagation
+
 ## 0.1.1
 
 ### Patch Changes
