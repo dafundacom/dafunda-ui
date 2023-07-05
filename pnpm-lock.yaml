@@ -788,6 +788,9 @@ importers:
       '@dafunda-ui/react-classname-utils':
         specifier: workspace:*
         version: link:../utilities/classname-utils
+      '@dafunda-ui/react-drop-zone':
+        specifier: ^0.1.3
+        version: 0.1.3(react@18.2.0)
       '@dafunda-ui/react-icon':
         specifier: workspace:^
         version: link:../components/icon
@@ -834,9 +837,6 @@ importers:
       '@dafunda-ui/react-drawer':
         specifier: workspace:^
         version: link:../components/drawer
-      '@dafunda-ui/react-drop-zone':
-        specifier: workspace:^
-        version: link:../components/drop-zone
       '@dafunda-ui/react-dropdown-menu':
         specifier: workspace:^
         version: link:../components/dropdown-menu
@@ -1496,6 +1496,35 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
+    dev: false
+
+  /@dafunda-ui/react-classname-utils@0.1.0(react@18.2.0):
+    resolution: {integrity: sha512-9gDXkSI8KY/QOC9IP6C1FdGFdX6OAEFFH/2b9C0zFcMfQO97CCB9WBicAYdJX8Lf8+BpVve+YpiIMllSwYjG7g==}
+    peerDependencies:
+      react: '>=18'
+    dependencies:
+      clsx: 1.2.1
+      react: 18.2.0
+      tailwind-merge: 1.13.2
+    dev: false
+
+  /@dafunda-ui/react-drop-zone@0.1.3(react@18.2.0):
+    resolution: {integrity: sha512-IpOj4eKe1rEG/djF97wL8UXY08sV5nn3r8xTd6uZ83hptn1vZ8iV/warue06KmeKqSjQmgC08+ZK/40uTY4B/g==}
+    peerDependencies:
+      react: '>=18'
+    dependencies:
+      '@dafunda-ui/react-classname-utils': 0.1.0(react@18.2.0)
+      '@dafunda-ui/react-icon': 0.1.1(react@18.2.0)
+      react: 18.2.0
+    dev: false
+
+  /@dafunda-ui/react-icon@0.1.1(react@18.2.0):
+    resolution: {integrity: sha512-PQXoruzlaqJnhrREPnvZeJ6FBWEkfPY6tnuWOpd+JtHvA1Zc3N9ji7WCRW3IQfBQ9ImLcHPDixPM1DlNHAtnSg==}
+    peerDependencies:
+      react: '>=18'
+    dependencies:
+      react: 18.2.0
+      react-icons: 4.10.1(react@18.2.0)
     dev: false
 
   /@esbuild/android-arm64@0.18.9:
