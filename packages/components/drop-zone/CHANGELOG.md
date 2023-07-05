@@ -1,5 +1,13 @@
 # @dafunda-ui/react-drop-zone
 
+## 0.1.3
+
+### Patch Changes
+
+- [`6770595`](https://github.com/dafundacom/dafunda-ui/commit/6770595bd489bf6debcfa5dd1b2917217bca1b07)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - fix cannot upload
+  file
+
 ## 0.1.2
 
 ### Patch Changes
