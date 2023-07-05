@@ -1,5 +1,13 @@
 # @dafunda-ui/react-next-client
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated dependencies
+  [[`7e175cb`](https://github.com/dafundacom/dafunda-ui/commit/7e175cb10cc7069a9d9a5843aef07827b52c1f35)]:
+  - @dafunda-ui/react-drop-zone@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes
