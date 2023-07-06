@@ -46,6 +46,7 @@
     "@dafunda-ui/react-collapsible": "workspace:^",
     "@dafunda-ui/react-dialog": "workspace:^",
     "@dafunda-ui/react-drawer": "workspace:^",
+    "@dafunda-ui/react-drop-zone": "workspace:^",
     "@dafunda-ui/react-dropdown-menu": "workspace:^",
     "@dafunda-ui/react-form": "workspace:^",
     "@dafunda-ui/react-hover-card": "workspace:^",
