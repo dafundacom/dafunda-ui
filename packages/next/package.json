@@ -45,6 +45,7 @@
     "@dafunda-ui/react-card": "workspace:^",
     "@dafunda-ui/react-children-utils": "workspace:^",
     "@dafunda-ui/react-classname-utils": "workspace:*",
+    "@dafunda-ui/react-drop-zone": "workspace:^",
     "@dafunda-ui/react-icon": "workspace:^",
     "@dafunda-ui/react-skeleton": "workspace:^",
     "@dafunda-ui/react-table": "workspace:^",
