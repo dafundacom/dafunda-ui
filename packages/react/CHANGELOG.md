@@ -1,5 +1,13 @@
 # @dafunda-ui/react-react
 
+## 0.1.6
+
+### Patch Changes
+
+- Updated dependencies
+  [[`c786686`](https://github.com/dafundacom/dafunda-ui/commit/c78668618b30cf4373f83409ee3713788d646f9b)]:
+  - @dafunda-ui/react-drop-zone@0.1.6
+
 ## 0.1.5
 
 ### Patch Changes
