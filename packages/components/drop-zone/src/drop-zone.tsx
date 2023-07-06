@@ -22,13 +22,16 @@ export const DropZone = React.forwardRef<HTMLDivElement, DropZoneProps>(
         ref={ref}
         className={cn("flex w-full items-center justify-center", className)}
       >
-        <div className="border-border/30 bg-background/5 hover:bg-background/10 relative flex h-48 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed">
+        <label
+          htmlFor="file"
+          className="border-border/30 bg-background/5 hover:bg-background/10 flex h-48 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed"
+        >
           <div className="flex flex-col items-center justify-center pb-6 pt-5">
             <Icon.UploadFile className="text-foreground/40 mb-3 h-10 w-10" />
             <p className="text-foreground/50 mb-2 text-sm">
               <span className="font-semibold">{placeholder}</span>
             </p>
-            <p className="text-foreground/50 mb-2 text-xs">{description}</p>
+            <p className="text-foreground/50 text-xs">{description}</p>
           </div>
           <input
             id="file"
@@ -37,7 +40,7 @@ export const DropZone = React.forwardRef<HTMLDivElement, DropZoneProps>(
             multiple={true}
             {...rest}
           />
-        </div>
+        </label>
       </div>
     )
   },
