@@ -1,5 +1,17 @@
 # @dafunda-ui/react-next
 
+## 0.1.3
+
+### Patch Changes
+
+- [`6e059f4`](https://github.com/dafundacom/dafunda-ui/commit/6e059f4247420dff56866bba266765a1f2ac8447)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - remove drop zone
+  placeholder
+
+- Updated dependencies
+  [[`6e059f4`](https://github.com/dafundacom/dafunda-ui/commit/6e059f4247420dff56866bba266765a1f2ac8447)]:
+  - @dafunda-ui/react-drop-zone@0.1.5
+
 ## 0.1.2
 
 ### Patch Changes
