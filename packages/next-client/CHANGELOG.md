@@ -1,5 +1,13 @@
 # @dafunda-ui/react-next-client
 
+## 0.1.5
+
+### Patch Changes
+
+- [`6e059f4`](https://github.com/dafundacom/dafunda-ui/commit/6e059f4247420dff56866bba266765a1f2ac8447)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - remove drop zone
+  placeholder
+
 ## 0.1.4
 
 ### Patch Changes
