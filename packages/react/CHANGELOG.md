@@ -1,5 +1,23 @@
 # @dafunda-ui/react-react
 
+## 0.3.0
+
+### Minor Changes
+
+- [`9f4e8e6`](https://github.com/dafundacom/dafunda-ui/commit/9f4e8e69108c42d9e42068ec26534f4b544b0915)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - add command
+  component
+
+- [`ef60e5f`](https://github.com/dafundacom/dafunda-ui/commit/ef60e5f9f1824b51ddec250f1e87f21de24b9f29)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - update
+
+### Patch Changes
+
+- Updated dependencies
+  [[`ef60e5f`](https://github.com/dafundacom/dafunda-ui/commit/ef60e5f9f1824b51ddec250f1e87f21de24b9f29),
+  [`ef60e5f`](https://github.com/dafundacom/dafunda-ui/commit/ef60e5f9f1824b51ddec250f1e87f21de24b9f29)]:
+  - @dafunda-ui/react-command@0.1.0
+
 ## 0.2.0
 
 ### Minor Changes
