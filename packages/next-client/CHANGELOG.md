@@ -1,5 +1,13 @@
 # @dafunda-ui/react-next-client
 
+## 0.3.0
+
+### Minor Changes
+
+- [`9f4e8e6`](https://github.com/dafundacom/dafunda-ui/commit/9f4e8e69108c42d9e42068ec26534f4b544b0915)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - add command
+  component
+
 ## 0.2.0
 
 ### Minor Changes
