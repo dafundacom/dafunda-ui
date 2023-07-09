@@ -51,6 +51,7 @@
     "@dafunda-ui/react-children-utils": "workspace:^",
     "@dafunda-ui/react-classname-utils": "workspace:*",
     "@dafunda-ui/react-collapsible": "workspace:^",
+    "@dafunda-ui/react-command": "workspace:^",
     "@dafunda-ui/react-dialog": "workspace:^",
     "@dafunda-ui/react-drawer": "workspace:^",
     "@dafunda-ui/react-drop-zone": "workspace:^",

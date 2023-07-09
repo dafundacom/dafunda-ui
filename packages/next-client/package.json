@@ -44,6 +44,7 @@
     "@dafunda-ui/react-calendar": "workspace:^",
     "@dafunda-ui/react-checkbox": "workspace:^",
     "@dafunda-ui/react-collapsible": "workspace:^",
+    "@dafunda-ui/react-command": "workspace:^",
     "@dafunda-ui/react-dialog": "workspace:^",
     "@dafunda-ui/react-drawer": "workspace:^",
     "@dafunda-ui/react-dropdown-menu": "workspace:^",
