@@ -48,6 +48,7 @@
     "@dafunda-ui/react-dialog": "workspace:^",
     "@dafunda-ui/react-drawer": "workspace:^",
     "@dafunda-ui/react-dropdown-menu": "workspace:^",
+    "@dafunda-ui/react-editable-paragraph": "workspace:^",
     "@dafunda-ui/react-editor": "workspace:^",
     "@dafunda-ui/react-form": "workspace:^",
     "@dafunda-ui/react-hover-card": "workspace:^",

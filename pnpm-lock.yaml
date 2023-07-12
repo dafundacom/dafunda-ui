@@ -395,6 +395,25 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0
 
+  packages/components/editable-paragraph:
+    dependencies:
+      '@dafunda-ui/react-button':
+        specifier: workspace:^
+        version: link:../button
+      '@dafunda-ui/react-icon':
+        specifier: workspace:^
+        version: link:../icon
+      '@dafunda-ui/react-textarea':
+        specifier: workspace:^
+        version: link:../textarea
+    devDependencies:
+      clean-package:
+        specifier: 2.2.0
+        version: 2.2.0
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+
   packages/components/editor:
     dependencies:
       '@dafunda-ui/react-button':
@@ -974,6 +993,9 @@ importers:
       '@dafunda-ui/react-dropdown-menu':
         specifier: workspace:^
         version: link:../components/dropdown-menu
+      '@dafunda-ui/react-editable-paragraph':
+        specifier: workspace:^
+        version: link:../components/editable-paragraph
       '@dafunda-ui/react-editor':
         specifier: workspace:^
         version: link:../components/editor
@@ -1089,6 +1111,9 @@ importers:
       '@dafunda-ui/react-dropdown-menu':
         specifier: workspace:^
         version: link:../components/dropdown-menu
+      '@dafunda-ui/react-editable-paragraph':
+        specifier: workspace:^
+        version: link:../components/editable-paragraph
       '@dafunda-ui/react-editor':
         specifier: workspace:^
         version: link:../components/editor
