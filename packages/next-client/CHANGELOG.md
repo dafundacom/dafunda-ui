@@ -1,5 +1,13 @@
 # @dafunda-ui/react-next-client
 
+## 0.4.0
+
+### Minor Changes
+
+- [`bff9761`](https://github.com/dafundacom/dafunda-ui/commit/bff97610236d591c95e315a24aabf2d03ae6ad41)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - add editable
+  paragraph component
+
 ## 0.3.0
 
 ### Minor Changes
