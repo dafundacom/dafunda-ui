@@ -71,7 +71,7 @@
     "@tiptap/react": "^2.0.3",
     "@tiptap/suggestion": "^2.1.6",
     "highlight.js": "^11.8.0",
-    "lowlight": "^2.9.0",
+    "lowlight": "^3.0.0",
     "tippy.js": "^6.3.7"
   },
   "peerDependencies": {
