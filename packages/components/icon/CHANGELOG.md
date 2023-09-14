@@ -1,5 +1,19 @@
 # @dafunda-ui/react-icon
 
+## 0.2.0
+
+### Minor Changes
+
+- [`9eefc36`](https://github.com/dafundacom/dafunda-ui/commit/9eefc366b4ec57edf85d2839f75061da64014359)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - add editor command
+  menu
+
+### Patch Changes
+
+- [`24163f9`](https://github.com/dafundacom/dafunda-ui/commit/24163f920ddd55cd1ed4c9969286fc52afcf69ba)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - export flag icon
+  from icon package
+
 ## 0.1.1
 
 ### Patch Changes

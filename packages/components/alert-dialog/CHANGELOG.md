@@ -1,5 +1,12 @@
 # @dafunda-ui/react-alert-dialog
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @dafunda-ui/react-button@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes
