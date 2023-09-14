@@ -134,15 +134,14 @@ const getSuggestionItems = ({ query }: { query: string }) => {
           .run()
       },
     },
-
-    {
-      title: "Code",
-      description: "Capture a code snippet.",
-      searchTerms: ["codeblock"],
-      icon: <Icon.Code size={18} />,
-      command: ({ editor, range }: CommandProps) =>
-        editor.chain().focus().deleteRange(range).toggleCodeBlock().run(),
-    },
+    // {
+    //   title: "Code",
+    //   description: "Capture a code snippet.",
+    //   searchTerms: ["codeblock"],
+    //   icon: <Icon.Code size={18} />,
+    //   command: ({ editor, range }: CommandProps) =>
+    //     editor.chain().focus().deleteRange(range).toggleCodeBlock().run(),
+    // },
   ].filter((item) => {
     if (typeof query === "string" && query.length > 0) {
       const search = query.toLowerCase()

@@ -36,11 +36,7 @@ import { Text } from "@tiptap/extension-text"
 import { Underline, UnderlineOptions } from "@tiptap/extension-underline"
 import { Youtube, YoutubeOptions } from "@tiptap/extension-youtube"
 
-import css from "highlight.js/lib/languages/css"
-import js from "highlight.js/lib/languages/javascript"
-import ts from "highlight.js/lib/languages/typescript"
-import html from "highlight.js/lib/languages/xml"
-import { lowlight } from "lowlight"
+import { common, createLowlight } from "lowlight"
 
 export interface EditorKitExtensionOptions {
   blockquote: Partial<BlockquoteOptions> | false
@@ -69,10 +65,12 @@ export interface EditorKitExtensionOptions {
   youtube: Partial<YoutubeOptions> | false
 }
 
-lowlight.registerLanguage("html", html)
-lowlight.registerLanguage("css", css)
-lowlight.registerLanguage("js", js)
-lowlight.registerLanguage("ts", ts)
+const lowlight = createLowlight(common)
+
+lowlight.highlight("html", "use strict")
+lowlight.highlight("css", "use strict")
+lowlight.highlight("js", "use strict")
+lowlight.highlight("ts", "use strict")
 
 export const EditorKitExtension = Extension.create<EditorKitExtensionOptions>({
   name: "EditorKitExtension",
