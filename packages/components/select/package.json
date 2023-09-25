@@ -40,7 +40,7 @@
   "dependencies": {
     "@dafunda-ui/react-classname-utils": "workspace:*",
     "@dafunda-ui/react-icon": "workspace:^",
-    "@radix-ui/react-select": "^1.2.2"
+    "@radix-ui/react-select": "^2.0.0"
   },
   "peerDependencies": {
     "react": ">=18"
