@@ -1,5 +1,12 @@
 # @dafunda-ui/react-icon
 
+## 0.2.1
+
+### Patch Changes
+
+- [`130fb9c`](https://github.com/dafundacom/dafunda-ui/commit/130fb9c34c6d41d148d525a0720823d68a78e30b)
+  Thanks [@karyanayandi](https://github.com/karyanayandi)! - add x icon
+
 ## 0.2.0
 
 ### Minor Changes
