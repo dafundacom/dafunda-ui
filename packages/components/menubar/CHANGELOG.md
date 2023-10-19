@@ -1,5 +1,13 @@
 # @dafunda-ui/react-menubar
 
+## 0.1.3
+
+### Patch Changes
+
+- Updated dependencies
+  [[`130fb9c`](https://github.com/dafundacom/dafunda-ui/commit/130fb9c34c6d41d148d525a0720823d68a78e30b)]:
+  - @dafunda-ui/react-icon@0.2.1
+
 ## 0.1.2
 
 ### Patch Changes
