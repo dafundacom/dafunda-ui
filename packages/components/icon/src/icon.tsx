@@ -29,12 +29,12 @@ import {
 import { FcGoogle } from "react-icons/fc"
 import { ImBook } from "react-icons/im"
 import { IoGameController } from "react-icons/io5"
+import { FaXTwitter } from "react-icons/fa6"
 import {
   LuChevronDown,
   LuCircle,
   LuLoader2,
   LuTrash,
-  LuTwitter,
   LuHeading1,
   LuHeading2,
   LuHeading3,
@@ -72,6 +72,7 @@ import {
   MdHorizontalRule,
   MdImage,
   MdLightMode,
+  MdLock,
   MdLocationOn,
   MdLogin,
   MdLogout,
@@ -183,6 +184,7 @@ export const Icon = {
   Linux: FaLinux,
   ListOl: BiListOl,
   Location: MdLocationOn,
+  Lock: MdLock,
   Login: MdLogin,
   Logout: MdLogout,
   Media: MdOutlinePermMedia,
@@ -212,7 +214,7 @@ export const Icon = {
   Trash: LuTrash,
   Trophy: BiTrophy,
   TV: BiTv,
-  Twitter: LuTwitter,
+  Twitter: FaXTwitter,
   Update: MdUpdate,
   UploadFile: MdOutlineFileUpload,
   User: MdPerson,
