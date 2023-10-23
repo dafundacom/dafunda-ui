@@ -1,5 +1,26 @@
 # @dafunda-ui/react-next-client
 
+## 0.4.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @dafunda-ui/react-accordion@0.1.4
+  - @dafunda-ui/react-calendar@0.1.4
+  - @dafunda-ui/react-checkbox@0.1.4
+  - @dafunda-ui/react-command@0.1.3
+  - @dafunda-ui/react-dialog@0.1.4
+  - @dafunda-ui/react-drawer@0.1.4
+  - @dafunda-ui/react-dropdown-menu@0.1.4
+  - @dafunda-ui/react-editable-paragraph@0.0.4
+  - @dafunda-ui/react-editor@0.1.2
+  - @dafunda-ui/react-menubar@0.1.4
+  - @dafunda-ui/react-navigation-menu@0.1.4
+  - @dafunda-ui/react-radio-group@0.1.4
+  - @dafunda-ui/react-select@0.1.4
+  - @dafunda-ui/react-toast@0.1.4
+  - @dafunda-ui/react-alert-dialog@0.1.4
+
 ## 0.4.2
 
 ### Patch Changes
