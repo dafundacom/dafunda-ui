@@ -1,5 +1,15 @@
 # @dafunda-ui/react-next
 
+## 0.1.7
+
+### Patch Changes
+
+- Updated dependencies
+  [[`743bb6b`](https://github.com/dafundacom/dafunda-ui/commit/743bb6b4e2d59e5a64fddea59083b7e9ef4fd7c6)]:
+  - @dafunda-ui/react-icon@0.2.2
+  - @dafunda-ui/react-button@0.1.4
+  - @dafunda-ui/react-drop-zone@0.1.9
+
 ## 0.1.6
 
 ### Patch Changes

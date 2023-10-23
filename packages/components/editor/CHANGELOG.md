@@ -1,5 +1,14 @@
 # @dafunda-ui/react-editor
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated dependencies
+  [[`743bb6b`](https://github.com/dafundacom/dafunda-ui/commit/743bb6b4e2d59e5a64fddea59083b7e9ef4fd7c6)]:
+  - @dafunda-ui/react-icon@0.2.2
+  - @dafunda-ui/react-button@0.1.4
+
 ## 0.1.1
 
 ### Patch Changes
