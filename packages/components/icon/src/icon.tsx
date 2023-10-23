@@ -20,6 +20,7 @@ import {
   FaPinterestP,
   FaPlaystation,
   FaRedditAlien,
+  FaStarHalfAlt,
   FaTelegramPlane,
   FaWhatsapp,
   FaWindows,
@@ -29,7 +30,7 @@ import {
 import { FcGoogle } from "react-icons/fc"
 import { ImBook } from "react-icons/im"
 import { IoGameController } from "react-icons/io5"
-import { FaXTwitter } from "react-icons/fa6"
+import { FaBolt, FaXTwitter } from "react-icons/fa6"
 import {
   LuChevronDown,
   LuCircle,
@@ -109,6 +110,7 @@ import {
   MdSupervisedUserCircle,
   MdUpdate,
   MdVpnKey,
+  MdTrendingUp,
 } from "react-icons/md"
 import { SiNintendoswitch } from "react-icons/si"
 
@@ -128,6 +130,7 @@ export const Icon = {
   Article: MdOutlineArticle,
   Balance: MdOutlineBalance,
   Book: ImBook,
+  Bolt: FaBolt,
   BrokenImage: MdOutlineBrokenImage,
   Calendar: MdOutlineCalendarMonth,
   Category: MdCategory,
@@ -166,6 +169,7 @@ export const Icon = {
   FormatUnderlined: MdFormatUnderlined,
   Game: IoGameController,
   GoogleColored: FcGoogle,
+  HalfStar: FaStarHalfAlt,
   H1: LuHeading1,
   H2: LuHeading2,
   H3: LuHeading3,
@@ -212,6 +216,7 @@ export const Icon = {
   Text: LuText,
   Topic: MdOutlineTopic,
   Trash: LuTrash,
+  Trending: MdTrendingUp,
   Trophy: BiTrophy,
   TV: BiTv,
   Twitter: FaXTwitter,
