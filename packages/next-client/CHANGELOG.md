@@ -1,5 +1,14 @@
 # @dafunda-ui/react-next-client
 
+## 0.4.4
+
+### Patch Changes
+
+- Updated dependencies
+  [[`9f87b96`](https://github.com/dafundacom/dafunda-ui/commit/9f87b96782c3e194d89b7e2c4823327b8be224d7),
+  [`35b4c72`](https://github.com/dafundacom/dafunda-ui/commit/35b4c72ef6462b9f1a1d5a870b1c5fc4092e207b)]:
+  - @dafunda-ui/react-editor@0.1.3
+
 ## 0.4.3
 
 ### Patch Changes

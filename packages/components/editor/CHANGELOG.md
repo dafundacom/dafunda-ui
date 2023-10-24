@@ -1,5 +1,17 @@
 # @dafunda-ui/react-editor
 
+## 0.1.3
+
+### Patch Changes
+
+- [#54](https://github.com/dafundacom/dafunda-ui/pull/54)
+  [`9f87b96`](https://github.com/dafundacom/dafunda-ui/commit/9f87b96782c3e194d89b7e2c4823327b8be224d7)
+  Thanks [@ghizzkira](https://github.com/ghizzkira)! - Update packages
+
+- [#53](https://github.com/dafundacom/dafunda-ui/pull/53)
+  [`35b4c72`](https://github.com/dafundacom/dafunda-ui/commit/35b4c72ef6462b9f1a1d5a870b1c5fc4092e207b)
+  Thanks [@ghizzkira](https://github.com/ghizzkira)! - Update packages
+
 ## 0.1.2
 
 ### Patch Changes
