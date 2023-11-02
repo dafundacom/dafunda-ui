@@ -1,11 +1,12 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 
 import * as React from "react"
+import { Icon } from "@dafunda-ui/react-icon"
+import { Editor, Extension, Range } from "@tiptap/core"
+import { ReactRenderer } from "@tiptap/react"
 import Suggestion from "@tiptap/suggestion"
 import tippy from "tippy.js"
-import { Editor, Range, Extension } from "@tiptap/core"
-import { ReactRenderer } from "@tiptap/react"
-import { Icon } from "@dafunda-ui/react-icon"
 
 interface CommandItemProps {
   title: string
@@ -134,14 +135,48 @@ const getSuggestionItems = ({ query }: { query: string }) => {
           .run()
       },
     },
-    // {
-    //   title: "Code",
-    //   description: "Capture a code snippet.",
-    //   searchTerms: ["codeblock"],
-    //   icon: <Icon.Code size={18} />,
-    //   command: ({ editor, range }: CommandProps) =>
-    //     editor.chain().focus().deleteRange(range).toggleCodeBlock().run(),
-    // },
+    {
+      title: "Bullet List",
+      description: "Add Bullet List.",
+      searchTerms: ["bulletList"],
+      icon: <Icon.FormatListBulleted size={18} />,
+      command: ({ editor, range }: CommandProps) => {
+        editor.chain().focus().deleteRange(range).toggleBulletList().run()
+      },
+    },
+    {
+      title: "Ordered List",
+      description: "Add Ordered List.",
+      searchTerms: ["orderedList"],
+      icon: <Icon.FormatListNumbered size={18} />,
+      command: ({ editor, range }: CommandProps) => {
+        editor.chain().focus().deleteRange(range).toggleOrderedList().run()
+      },
+    },
+    {
+      title: "Code",
+      description: "Capture a code snippet.",
+      searchTerms: ["codeblock"],
+      icon: <Icon.Code size={18} />,
+      command: ({ editor, range }: CommandProps) =>
+        editor.chain().focus().deleteRange(range).toggleCodeBlock().run(),
+    },
+    {
+      title: "Quote",
+      description: "Add blockquote.",
+      searchTerms: ["blockquote"],
+      icon: <Icon.FormatQuote size={18} />,
+      command: ({ editor, range }: CommandProps) =>
+        editor.chain().focus().deleteRange(range).toggleBlockquote().run(),
+    },
+    {
+      title: "Horizontal Rule",
+      description: "Add horizontal rule.",
+      searchTerms: ["horizontalRule"],
+      icon: <Icon.HorizontalRule size={18} />,
+      command: ({ editor, range }: CommandProps) =>
+        editor.chain().focus().deleteRange(range).setHorizontalRule().run(),
+    },
   ].filter((item) => {
     if (typeof query === "string" && query.length > 0) {
       const search = query.toLowerCase()
