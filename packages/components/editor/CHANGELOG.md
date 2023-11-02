@@ -1,5 +1,13 @@
 # @dafunda-ui/react-editor
 
+## 0.2.0
+
+### Minor Changes
+
+- [#57](https://github.com/dafundacom/dafunda-ui/pull/57)
+  [`8ec4dbf`](https://github.com/dafundacom/dafunda-ui/commit/8ec4dbf140965f188202d4889ab2935b0c5bb5bd)
+  Thanks [@ghizzkira](https://github.com/ghizzkira)! - fix slash command
+
 ## 0.1.3
 
 ### Patch Changes
