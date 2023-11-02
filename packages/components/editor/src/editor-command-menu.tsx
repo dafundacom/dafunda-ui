@@ -141,7 +141,7 @@ const getSuggestionItems = ({ query }: { query: string }) => {
       searchTerms: ["bulletList"],
       icon: <Icon.FormatListBulleted size={18} />,
       command: ({ editor, range }: CommandProps) => {
-        editor.chain().focus().deleteRange(range).toggleBulletList().run()
+        editor.chain().focus().deleteRange(range).toggleWrap("bulletList").run()
       },
     },
     {
@@ -150,7 +150,12 @@ const getSuggestionItems = ({ query }: { query: string }) => {
       searchTerms: ["orderedList"],
       icon: <Icon.FormatListNumbered size={18} />,
       command: ({ editor, range }: CommandProps) => {
-        editor.chain().focus().deleteRange(range).toggleOrderedList().run()
+        editor
+          .chain()
+          .focus()
+          .deleteRange(range)
+          .toggleWrap("orderedList")
+          .run()
       },
     },
     {
@@ -159,7 +164,7 @@ const getSuggestionItems = ({ query }: { query: string }) => {
       searchTerms: ["codeblock"],
       icon: <Icon.Code size={18} />,
       command: ({ editor, range }: CommandProps) =>
-        editor.chain().focus().deleteRange(range).toggleCodeBlock().run(),
+        editor.chain().focus().deleteRange(range).toggleWrap("codeBlock").run(),
     },
     {
       title: "Quote",
@@ -167,15 +172,12 @@ const getSuggestionItems = ({ query }: { query: string }) => {
       searchTerms: ["blockquote"],
       icon: <Icon.FormatQuote size={18} />,
       command: ({ editor, range }: CommandProps) =>
-        editor.chain().focus().deleteRange(range).toggleBlockquote().run(),
-    },
-    {
-      title: "Horizontal Rule",
-      description: "Add horizontal rule.",
-      searchTerms: ["horizontalRule"],
-      icon: <Icon.HorizontalRule size={18} />,
-      command: ({ editor, range }: CommandProps) =>
-        editor.chain().focus().deleteRange(range).setHorizontalRule().run(),
+        editor
+          .chain()
+          .focus()
+          .deleteRange(range)
+          .toggleWrap("blockquote")
+          .run(),
     },
   ].filter((item) => {
     if (typeof query === "string" && query.length > 0) {
